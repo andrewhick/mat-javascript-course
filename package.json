@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/andrewhick/mat-javascript-course/issues"
   },
-  "homepage": "https://github.com/andrewhick/mat-javascript-course#readme"
+  "homepage": "https://github.com/andrewhick/mat-javascript-course#readme",
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "eslint-plugin-protractor": "^1.41.1",
+    "protractor": "^5.4.2"
+  }
 }
