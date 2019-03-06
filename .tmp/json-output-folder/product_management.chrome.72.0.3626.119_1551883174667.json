@@ -17,6 +17,17 @@
         "type": "scenario",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "test\\features\\step_definitions\\product.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
             "arguments": [
               {
                 "rows": [
@@ -40,8 +51,12 @@
             "keyword": "Given ",
             "line": 15,
             "name": "a product doesn't exist",
+            "match": {
+              "location": "test\\features\\step_definitions\\product.steps.js:28"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1894000000
             }
           },
           {
@@ -49,8 +64,12 @@
             "keyword": "When ",
             "line": 20,
             "name": "I add the product",
+            "match": {
+              "location": "test\\features\\step_definitions\\product.steps.js:37"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1040000000
             }
           },
           {
@@ -58,8 +77,12 @@
             "keyword": "Then ",
             "line": 21,
             "name": "the product is added",
+            "match": {
+              "location": "test\\features\\step_definitions\\product.steps.js:46"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 110000000
             }
           },
           {
@@ -70,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 1000000
             }
           }
         ]

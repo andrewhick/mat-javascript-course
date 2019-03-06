@@ -4,10 +4,10 @@
  * @returns {ElementFinder} element
  */
 
- var ViewProductPage = function() {
+ var viewProductPage = function() {
     this.productName = function(product) {
-        return Element(by.cssContainingText('h2', product.name));
+        return element(by.cssContainingText('h2', product.name));
     };
  };
 
- module.exports = new ViewProductPage();
+ module.exports = new viewProductPage();

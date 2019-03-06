@@ -14,9 +14,9 @@ var World = function World() {
 
         // Visit URL. Defaults to baseUrl.
         return browser.get('');
-    }
+    };
 
-    // exports function as a module so we can import it into another file.
-    module.exports.World = World;
+};
 
-}
+// exports function as a module so we can import it into another file.
+module.exports.World = World;

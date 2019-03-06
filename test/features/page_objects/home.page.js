@@ -16,7 +16,7 @@
      * @returns {ElementFinder} element
      */
     this.productInTable = function(product){
-        return Element(by.cssContainingText('.mat-cell', product.name));
+        return element(by.cssContainingText('.mat-cell', product.name));
     };
 
  };
