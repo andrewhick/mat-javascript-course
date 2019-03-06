@@ -1,0 +1,91 @@
+[
+  {
+    "description": "Rules: \n1. You must be able to add a product\n2. No duplicates\n3. Product name must only contain letters, numbers and quotes\n\nQuestion:\n1. Is there a search function?\n\nGlossary:\nUser = an administrator",
+    "keyword": "Feature",
+    "name": "Product Management",
+    "line": 1,
+    "id": "product-management",
+    "tags": [],
+    "uri": "test\\features\\product.feature",
+    "elements": [
+      {
+        "id": "product-management;add-a-product",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "add a product",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "description",
+                      "price"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "carrots",
+                      "orange vegetables",
+                      "10"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "a product doesn't exist",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I add the product",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the product is added",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "72.0.3626.119"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
