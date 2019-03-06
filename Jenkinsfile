@@ -2,8 +2,6 @@ pipeline {
 
     agent any
 
-    parameters {}
-
     triggers { pollSCM('* * * * *')} // poll the source code every minute
 
     stages {
