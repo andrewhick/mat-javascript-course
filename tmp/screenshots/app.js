@@ -565,6 +565,141 @@ app.controller('ScreenshotReportController', function ($scope, $http) {
         "screenShotFile": "0088009f-0014-0095-0034-00e400190057.png",
         "timestamp": 1551969573944,
         "duration": 2232
+    },
+    {
+        "description": "should create a product meat|productTests",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "sessionId": "c91d286f8700ff1d36a606828b5e4d22",
+        "instanceId": 13512,
+        "browser": {
+            "name": "chrome",
+            "version": "72.0.3626.119"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://localhost:8080/ - Failed to decode downloaded font: https://fonts.gstatic.com/stats/Roboto/normal/400",
+                "timestamp": 1551970213723,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "003f0066-003f-00ce-00a4-00e400bc00c7.png",
+        "timestamp": 1551970212726,
+        "duration": 7309
+    },
+    {
+        "description": "should create a product vegetables|productTests",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "sessionId": "c91d286f8700ff1d36a606828b5e4d22",
+        "instanceId": 13512,
+        "browser": {
+            "name": "chrome",
+            "version": "72.0.3626.119"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://localhost:8080/ - Failed to decode downloaded font: https://fonts.gstatic.com/stats/Roboto/normal/400",
+                "timestamp": 1551970221049,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "http://localhost:8080/products - Failed to decode downloaded font: https://fonts.gstatic.com/stats/Roboto/normal/400",
+                "timestamp": 1551970223438,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "000300d4-00c6-0016-0086-00f5000400f2.png",
+        "timestamp": 1551970220642,
+        "duration": 5104
+    },
+    {
+        "description": "should create a product meat|productTests",
+        "passed": true,
+        "pending": false,
+        "sessionId": "54ceebd2-f020-4190-a1f0-d5239dfdc88c",
+        "instanceId": 2944,
+        "browser": {
+            "name": "firefox"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "008d0055-00cb-006a-00f9-00e800f30042.png",
+        "timestamp": 1551970219425,
+        "duration": 10137
+    },
+    {
+        "description": "should create a product bread|productTests",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "sessionId": "c91d286f8700ff1d36a606828b5e4d22",
+        "instanceId": 13512,
+        "browser": {
+            "name": "chrome",
+            "version": "72.0.3626.119"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://localhost:8080/products - Failed to decode downloaded font: https://fonts.gstatic.com/stats/Roboto/normal/400",
+                "timestamp": 1551970227212,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "http://localhost:8080/products - Failed to decode downloaded font: https://fonts.gstatic.com/stats/Roboto/normal/400",
+                "timestamp": 1551970229127,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00bd00c1-00f5-0019-0068-00e1003500a7.png",
+        "timestamp": 1551970226133,
+        "duration": 4943
+    },
+    {
+        "description": "should create a product vegetables|productTests",
+        "passed": true,
+        "pending": false,
+        "sessionId": "54ceebd2-f020-4190-a1f0-d5239dfdc88c",
+        "instanceId": 2944,
+        "browser": {
+            "name": "firefox"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "005a00e3-009a-00f1-0059-00cf00d5006f.png",
+        "timestamp": 1551970229849,
+        "duration": 4470
+    },
+    {
+        "description": "should create a product bread|productTests",
+        "passed": true,
+        "pending": false,
+        "sessionId": "54ceebd2-f020-4190-a1f0-d5239dfdc88c",
+        "instanceId": 2944,
+        "browser": {
+            "name": "firefox"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00360012-006b-00d5-0006-00300074005e.png",
+        "timestamp": 1551970234447,
+        "duration": 3575
     }
 ];
 
