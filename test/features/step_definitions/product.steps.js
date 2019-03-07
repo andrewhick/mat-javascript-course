@@ -25,16 +25,26 @@ Before(function() {
     this.openWebsite();
 });
 
-Given('a product doesn\'t exist', function (dataTable) {
-    var data = dataTable.hashes();
-    this.product = data[0];
+Given("a product with name {string} and description {string} and price {string} doesn't exist", function (name, description, price) {
+    // can also use {int} above but use {string} if writing to screen
+
+    // Convert data into an object
+    this.product.name = name;
+    this.product.description = description;
+    this.product.price = price;
 
     // Must have a return to signify end of step.
     // "Eventually" comes from the chaiAsPromised API.
-    return expect(actions.isElementOnPage(homePage.productInTable(this.product))).to.eventually.be.false;
+    // Temporarily comment the following out for parameterisation.
+    // return expect(actions.isElementOnPage(homePage.productInTable(this.product))).to.eventually.be.false;
 });
 
 When('I add the product', function () {
+
+    // break point
+    debugger;
+    // run 'npm run debug' open 'chrome://inspect/#devices' and click 'inspect'.
+
     actions.click(homePage.addProduct);
     actions.type(addProductPage.productName, this.product.name);
     actions.type(addProductPage.productDescription, this.product.description);

@@ -3,7 +3,7 @@
 var World = function World() {
 
     // tie the variable into World function and execution context
-    this.product = undefined;
+    this.product = {};
 
     // open browser and go to website
     this.openWebsite = function() {
