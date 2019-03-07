@@ -21,4 +21,3 @@ User = an administrator
         |carrots|orange vegetables|10|
         |fish|slimy|20|
         |sausages|thin meat|30|
-
